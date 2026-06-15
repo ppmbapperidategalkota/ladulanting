@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LADU LANTING</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f5f5f5;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    /* Header seperti di Word */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .header img {
+      width: 60px;
+      height: 60px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .header .text {
+      text-align: left;
+    }
+
+    .header .text h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .header .text p {
+      margin: 0;
+      font-size: 14px;
+      color: #666;
+    }
+
+    /* Link kotak */
+    .link-box {
+      display: block;
+      width: 280px;
+      margin: 10px auto;
+      padding: 15px;
+      background: white;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #333;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .link-box:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <img src="assets/logo.png" alt="Logo">
+      <div class="text">
+        <h1>LADU LANTING</h1>
+      </div>
+    </div>
+
+    <!-- Link kotak -->
+    <a class="link-box" href="https://docs.google.com/spreadsheets/d/1ex7thSlzo6x3WO_NB1XRVNVdPfS3vpuS/edit?usp=sharing&ouid=113770001044854943997&rtpof=true&sd=true" target="_blank">SS Identifikasi Masalah</a>
+    <a class="link-box" href="https://drive.google.com/drive/folders/1L62pT27qj5EB5kbCB8NauZzLARpABZf7?usp=sharing" target="_blank">Dokumentasi</a>
+
+  </div>
+
+</body>
+</html>
